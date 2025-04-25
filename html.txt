@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SABS Solar Solutions</title>
+  <style>
+    body {font-family: 'Segoe UI', sans-serif; margin: 0; background: #f0fff0; color: #2d4739;}
+    header {background: #2d8f3a; color: white; padding: 1rem; text-align: center;}
+    nav ul {list-style: none; padding: 0; display: flex; justify-content: center; background: #3fa64c; margin: 0;}
+    nav ul li {margin: 0 15px;}
+    nav ul li a {color: white; text-decoration: none; font-weight: bold;}
+    section {padding: 2rem; max-width: 1000px; margin: auto;}
+    h2 {color: #2d8f3a;}
+    footer {background: #2d4739; color: white; text-align: center; padding: 1rem;}
+    form {display: flex; flex-direction: column; gap: 1rem;}
+    input, textarea {padding: 0.5rem; border-radius: 5px; border: 1px solid #ccc;}
+    button {padding: 0.7rem; background: #2d8f3a; color: white; border: none; border-radius: 5px; cursor: pointer;}
+    .gallery {display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;}
+    .gallery img {width: 100%; border-radius: 10px;}
+    ul {padding-left: 20px;}
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>SABS Solar Solutions</h1>
+    <p>Bringing you the future of clean cooking – Solar Powered Stove</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#product">Product</a></li>
+      <li><a href="#mission">Mission</a></li>
+      <li><a href="#vision">Vision</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome to SABS Solar Solutions</h2>
+    <p>At SABS Solar Solutions, we innovate to empower communities with clean, sustainable energy alternatives. Our Solar Powered Stove is designed to make outdoor and daily cooking greener, smarter, and cost-effective.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>SABS Solar Solutions is a pioneering company revolutionizing the way we cook with sustainable energy. Our mission is to empower individuals and communities to adopt eco-friendly cooking solutions, reducing carbon footprint and promoting a healthier environment.</p>
+    <p>We proudly introduce our flagship product — the Solar Powered Stove, designed to harness the abundant energy of the sun and convert it into a clean, efficient, and cost-effective cooking solution.</p>
+    <p>At SABS Solar Solutions, we are passionate about innovation and committed to making a positive impact on the planet. Our Solar Powered Stove is engineered to provide a reliable, user-friendly, and environmentally friendly alternative to traditional cooking methods.</p>
+    <p>Join us in our journey towards a sustainable future, and experience the power of solar cooking with SABS Solar Solutions.</p>
+  </section>
+
+  <section id="mission">
+    <h2>Mission Statement</h2>
+    <p>Our mission is to design, manufacture, and distribute innovative solar powered stoves that provide clean, efficient, and sustainable cooking solutions for households and communities worldwide. We strive to:</p>
+    <ul>
+      <li>Make solar cooking accessible and affordable for all</li>
+      <li>Reduce carbon emissions and environmental impact</li>
+      <li>Empower women and communities through sustainable energy</li>
+      <li>Deliver high-quality products and exceptional customer service</li>
+    </ul>
+    <p>We are dedicated to creating a brighter future, one solar stove at a time.</p>
+  </section>
+
+  <section id="vision">
+    <h2>Vision Statement</h2>
+    <p>Empowering communities with sustainable cooking solutions, harnessing the power of the sun to create a healthier planet. Our vision is a world where everyone has access to clean, reliable, and environmentally friendly cooking energy. Transforming lives, one solar stove at a time.</p>
+  </section>
+
+  <section id="product">
+    <h2>Our Product - Solar Powered Stove</h2>
+    <p>Our Solar Powered Stove is portable, easy to use, and environmentally friendly. Perfect for homes, outdoor adventures, and emergency situations, it offers a smokeless, fuel-free cooking experience using the power of the sun.</p>
+
+    <h3>Uses:</h3>
+    <ul>
+      <li>Converts sunlight into heat energy</li>
+      <li>Uses reflective materials and insulation for efficiency</li>
+      <li>Cooks food at temperatures up to 300°F (150°C)</li>
+    </ul>
+
+    <h3>Benefits:</h3>
+    <ul>
+      <li>Outdoor cooking (camping, hiking, picnics)</li>
+      <li>Emergency cooking (natural disasters, power outages)</li>
+      <li>Developing communities (off-grid energy solution)</li>
+      <li>Environmental conservation (reduces carbon emissions)</li>
+      <li>Health benefits (reduces indoor air pollution)</li>
+      <li>Convenience (portable, easy to use)</li>
+      <li>Cost-effective (reduces fuel costs)</li>
+    </ul>
+
+    <h3>Target Market:</h3>
+    <ul>
+      <li>Rural areas with limited access to electricity or cooking fuel</li>
+      <li>Outdoor enthusiasts needing a portable and sustainable cooking solution</li>
+      <li>Disaster relief organizations</li>
+      <li>Low-income households</li>
+    </ul>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="placeholder1.jpg" alt="Solar Stove Image 1">
+      <img src="placeholder2.jpg" alt="Solar Stove Image 2">
+      <img src="placeholder3.jpg" alt="Solar Stove Image 3">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SABS Solar Solutions. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
